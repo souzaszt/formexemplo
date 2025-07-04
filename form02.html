@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="principal">
+    <h1>Cadastro</h1>
+
+    <form action="form01.html" method="post">
+
+   <label for="nome">Nome:</label><br>
+   <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+   <br><br>
+
+   <label for="sexo">Sexo:</label><br>
+   <select id="sexo" name="sexo">
+    
+    <option value="masculino">Masculino</option>
+    <option value="feminino">Feminino</option>
+    <option value="outros">Outros</option>
+
+   </select>
+   <br><br>
+
+   <label for="data_nasc">Data nascimento:</label><br>
+   <input type="date" id="data_nasc" name="data_nasc">
+   <br><br>
+
+   <label for="whats">WhatsApp:</label><br>
+   <input type="text" id="whats" name="whats" required placeholder="Ex: (XX) XXXX-XXXX">
+   <br><br>
+
+   <label for="email">Email:</label><br>
+   <input type="text" id="email" name="email" required placeholder="Digite seu E-mail">
+
+    <br><br>
+
+     <label for="RG">RG:</label><br>
+     <input type="text" id="RG" name="RG" required>
+     <br><br>
+
+     <label for="cidade">Cidade:</label><br>
+     <input type="text" id="cidade" name="cidade" required >
+     <br><br>
+
+     <label for="estado">Estado:</label><br>
+     <input type="text" id="estado" name="estado" required>
+     <br><br>
+
+     <label for="cep">CEP:</label><br>
+     <input type="text" id="cep" name="cep" required placeholder="Ex: XXXXX-XXX">
+     <br><br>
+
+     <hr>
+
+     <label for="radio-pesquisa-1">Na sua casa possui uma geladeira?</label>
+     <br>
+     <br> 
+
+    
+   <input type="submit" value="Enviar formulário" class="enviar">
+
+    <br>
+    <br>
+
+    <p>Na sua casa tem um geladeira?</p>
+    <input type="radio" id="sim" name="sim" value="sim"><label for="sim">Sim</label>
+    <input type="radio" id="não" name="não" value="não"><label for="sim">Não</label>
+
+    <p>Na sua casa possui internet?</p>
+    <input type="radio" id="sim" name="sim" value="sim"><label for="sim">Sim</label>
+    <input type="radio" id="não" name="não" value="não"><label for="sim">Não</label>
+
+    <p>Qual a renda familiar da sua casa?</p>
+    <input type="checkbox" id="valor-1" name="valor-2" value="valor-1"><label for="sim">1500,00 á 1900,00</label>
+    <input type="checkbox" id="valor2" name="valor-2" value="valor-2"><label for="sim">1900.00 á 2500,00</label>
+
+
+
+    </div>
+</form>
+</body>
+</html>

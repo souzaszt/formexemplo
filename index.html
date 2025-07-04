@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="principal">
+    <h1>Cadastro</h1>
+
+    <form action="index.html" method="post">
+
+   <label for="nome">Nome:</label><br>
+   <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+   <br><br>
+
+   <label for="sexo">Sexo:</label><br>
+   <select id="sexo" name="sexo">
+    
+    <option value="masculino">Masculino</option>
+    <option value="feminino">Feminino</option>
+    <option value="outros">Outros</option>
+
+   </select>
+   <br><br>
+
+   <label for="data_nasc">Data nascimento:</label><br>
+   <input type="date" id="data_nasc" name="data_nasc">
+   <br><br>
+
+   <label for="whats">WhatsApp:</label><br>
+   <input type="text" id="whats" name="whats" required placeholder="Ex: (XX) XXXX-XXXX">
+   <br><br>
+
+   <label for="email">Email:</label><br>
+   <input type="text" id="email" name="email" required placeholder="Digite seu E-mail">
+    <br><br>
+
+     <label for="RG">RG:</label><br>
+     <input type="text" id="RG" name="RG" required placeholder="Ex: XX.XXX.XXX-X">
+     <br><br>
+
+     <label for="cidade">Cidade:</label><br>
+     <input type="text" id="cidade" name="cidade" required>
+     <br><br>
+
+     <label for="estado">Estado:</label><br>
+     <select id="estado" name="estado">
+    
+        <option value="sc">sc</option>
+        <option value="rs">rs</option>
+        <option value="pr">pr</option>
+    
+       </select>
+     <br><br>
+
+     <label for="cep">CEP:</label><br>
+     <input type="text" id="cep" name="cep" required placeholder="Ex: XXXXX-XXX">
+     <br><br>
+
+    
+   <input type="submit" value="Finalizar Cadastro" class="enviar">
+
+    
+    </div>
+</form>
+</body>
+</html>
